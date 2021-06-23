@@ -12,8 +12,11 @@
 	margin-top: 2rem;
 }
 
-table {
-	margin: 2rem auto;
+.board {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	margin-top: 2rem;
 }
 
 table tr th {
@@ -25,4 +28,20 @@ table tr th {
 table tr th:hover {
 	cursor: pointer;
 	background: #EEEEEE;
+}
+
+.reset {
+	margin-top: 1rem;
+	border: none;
+	outline: none;
+	background-color: #FF1A0F;
+	padding: 1rem 2rem;
+	border-radius: 1rem;
+	color: #FFF;
+	font-weight: bold;
+	font-size: 1rem;
+	cursor: pointer;
+}
+.reset:hover {
+	opacity: 0.8;
 }
