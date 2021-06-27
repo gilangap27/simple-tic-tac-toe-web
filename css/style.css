@@ -12,6 +12,21 @@
 	margin-top: 2rem;
 }
 
+.ket {
+	margin: 0 auto;
+	margin-top: 1rem;
+	width: 30%;
+	height: 3rem;
+	background-color: #6700F3;
+	color: #FFF;
+	font-size: 1.5rem;
+	font-weight: bold;
+	border-radius: 1rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 .board {
 	display: flex;
 	align-items: center;
